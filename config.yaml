@@ -1,0 +1,32 @@
+buildings:
+  - name: Building A
+    floors:
+      - name: Ground Floor
+        rooms:
+          - name: Living Room
+            devices:
+              lights:
+                - Light 1
+                - Light 2
+              climate:
+                - AC 1
+          - name: Kitchen
+            devices:
+              lights:
+                - Light 3
+      - name: First Floor
+        rooms:
+          - name: Bedroom
+            devices:
+              lights:
+                - Light 4
+              shades:
+                - Shade 1
+  - name: Building B
+    floors:
+      - name: Garden
+        rooms:
+          - name: Open Space
+            devices:
+              lights:
+                - Garden Light 1
